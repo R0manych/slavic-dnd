@@ -28,6 +28,7 @@ const nav = [
       { to: '/character/okhotnik', label: '— Охотник' },
       { to: '/character/plut', label: '— Плут' },
       { to: '/character/ratnik', label: '— Ратник' },
+      { to: '/character/contracts', label: 'Договоры' },
     ],
   },
   {

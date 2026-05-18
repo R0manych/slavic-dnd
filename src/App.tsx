@@ -10,14 +10,15 @@ const Map              = lazy(() => import('./content/world/map.mdx'))
 const Narody           = lazy(() => import('./content/character/narody.mdx'))
 const Predystorii      = lazy(() => import('./content/character/predystorii.mdx'))
 const Classes          = lazy(() => import('./content/character/classes.mdx'))
-const Berserk          = lazy(() => import('./content/character/berserk.mdx'))
-const Bogatyr          = lazy(() => import('./content/character/bogatyr.mdx'))
-const Vedun            = lazy(() => import('./content/character/vedun.mdx'))
-const Volkhv           = lazy(() => import('./content/character/volkhv.mdx'))
-const Knizhnik         = lazy(() => import('./content/character/knizhnik.mdx'))
-const Okhotnik         = lazy(() => import('./content/character/okhotnik.mdx'))
-const Plut             = lazy(() => import('./content/character/plut.mdx'))
-const Ratnik           = lazy(() => import('./content/character/ratnik.mdx'))
+const Contracts        = lazy(() => import('./content/character/contracts.mdx'))
+const Berserk          = lazy(() => import('./content/character/classes/berserk.mdx'))
+const Bogatyr          = lazy(() => import('./content/character/classes/bogatyr.mdx'))
+const Vedun            = lazy(() => import('./content/character/classes/vedun.mdx'))
+const Volkhv           = lazy(() => import('./content/character/classes/volkhv.mdx'))
+const Knizhnik         = lazy(() => import('./content/character/classes/knizhnik.mdx'))
+const Okhotnik         = lazy(() => import('./content/character/classes/okhotnik.mdx'))
+const Plut             = lazy(() => import('./content/character/classes/plut.mdx'))
+const Ratnik           = lazy(() => import('./content/character/classes/ratnik.mdx'))
 const Kharizma         = lazy(() => import('./content/rules/kharizma.mdx'))
 const Intellekt        = lazy(() => import('./content/rules/intellekt.mdx'))
 const Mery             = lazy(() => import('./content/rules/mery.mdx'))
@@ -45,6 +46,7 @@ export default function App() {
             <Route path="/character/narody"        element={<Page Component={Narody} />} />
             <Route path="/character/predystorii"   element={<Page Component={Predystorii} />} />
             <Route path="/character/classes"       element={<Page Component={Classes} />} />
+            <Route path="/character/contracts"     element={<Page Component={Contracts} />} />
             <Route path="/character/berserk"       element={<Page Component={Berserk} />} />
             <Route path="/character/bogatyr"       element={<Page Component={Bogatyr} />} />
             <Route path="/character/vedun"         element={<Page Component={Vedun} />} />
