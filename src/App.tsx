@@ -23,6 +23,7 @@ const Intellekt        = lazy(() => import('./content/rules/intellekt.mdx'))
 const Mery             = lazy(() => import('./content/rules/mery.mdx'))
 const Oruzhie          = lazy(() => import('./content/equipment/oruzhie.mdx'))
 const Dospekhi         = lazy(() => import('./content/equipment/dospekhi.mdx'))
+const Donate           = lazy(() => import('./content/donate.mdx'))
 
 function Page({ Component }: { Component: React.ComponentType }) {
   return (
@@ -57,6 +58,7 @@ export default function App() {
             <Route path="/rules/mery"              element={<Page Component={Mery} />} />
             <Route path="/equipment/oruzhie"       element={<Page Component={Oruzhie} />} />
             <Route path="/equipment/dospekhi"      element={<Page Component={Dospekhi} />} />
+            <Route path="/donate"                  element={<Page Component={Donate} />} />
           </Routes>
         </Layout>
       </MDXProvider>

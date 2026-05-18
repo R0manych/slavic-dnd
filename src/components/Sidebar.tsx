@@ -45,6 +45,12 @@ const nav = [
       { to: '/equipment/dospekhi', label: 'Доспехи' },
     ],
   },
+  {
+    title: 'Прочее',
+    links: [
+      { to: '/donate', label: 'Поддержать' },
+    ],
+  },
 ]
 
 export default function Sidebar() {
