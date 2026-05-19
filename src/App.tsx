@@ -22,6 +22,7 @@ const Ratnik           = lazy(() => import('./content/character/classes/ratnik.m
 const Kharizma         = lazy(() => import('./content/rules/kharizma.mdx'))
 const Intellekt        = lazy(() => import('./content/rules/intellekt.mdx'))
 const Mery             = lazy(() => import('./content/rules/mery.mdx'))
+const Otdykh           = lazy(() => import('./content/rules/otdykh.mdx'))
 const Oruzhie          = lazy(() => import('./content/equipment/oruzhie.mdx'))
 const Dospekhi         = lazy(() => import('./content/equipment/dospekhi.mdx'))
 const Donate           = lazy(() => import('./content/donate.mdx'))
@@ -58,6 +59,7 @@ export default function App() {
             <Route path="/rules/kharizma"          element={<Page Component={Kharizma} />} />
             <Route path="/rules/intellekt"         element={<Page Component={Intellekt} />} />
             <Route path="/rules/mery"              element={<Page Component={Mery} />} />
+            <Route path="/rules/otdykh"            element={<Page Component={Otdykh} />} />
             <Route path="/equipment/oruzhie"       element={<Page Component={Oruzhie} />} />
             <Route path="/equipment/dospekhi"      element={<Page Component={Dospekhi} />} />
             <Route path="/donate"                  element={<Page Component={Donate} />} />

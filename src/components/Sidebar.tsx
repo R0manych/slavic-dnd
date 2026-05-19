@@ -37,6 +37,7 @@ const nav = [
       { to: '/rules/kharizma', label: 'Харизма' },
       { to: '/rules/intellekt', label: 'Интеллект' },
       { to: '/rules/mery', label: 'Меры длины' },
+      { to: '/rules/otdykh', label: 'Отдых' },
     ],
   },
   {
