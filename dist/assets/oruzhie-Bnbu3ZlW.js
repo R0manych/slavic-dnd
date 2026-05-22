@@ -1,4 +1,4 @@
-import{u as t,j as d}from"./index-DQu251WW.js";function i(n){const s={h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...t(),...n.components},{Card:e,Colophon:h,Ornament:l}=s;return e||r("Card"),h||r("Colophon"),l||r("Ornament"),d.jsxs(d.Fragment,{children:[d.jsx(s.h1,{children:"Оружие Триречья"}),`
+import{u as t,j as d}from"./index-CHIWawKk.js";function i(n){const s={h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...t(),...n.components},{Card:e,Colophon:h,Ornament:l}=s;return e||r("Card"),h||r("Colophon"),l||r("Ornament"),d.jsxs(d.Fragment,{children:[d.jsx(s.h1,{children:"Оружие Триречья"}),`
 `,d.jsx("p",{className:"subtitle",children:"От сулицы до бердыша"}),`
 `,d.jsx("p",{className:"lead",children:"Цены — в серебре. Дистанции — в саженях."}),`
 `,d.jsx(s.h2,{children:"Простое оружие ближнего боя"}),`

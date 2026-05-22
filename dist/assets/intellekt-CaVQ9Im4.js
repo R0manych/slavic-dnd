@@ -1,4 +1,4 @@
-import{u as c,j as s}from"./index-DQu251WW.js";function i(r){const n={h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...c(),...r.components},{Card:d,Colophon:h,Ornament:l}=n;return d||e("Card"),h||e("Colophon"),l||e("Ornament"),s.jsxs(s.Fragment,{children:[s.jsx(n.h1,{children:"Интеллект"}),`
+import{u as c,j as s}from"./index-CHIWawKk.js";function i(r){const n={h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...c(),...r.components},{Card:d,Colophon:h,Ornament:l}=n;return d||e("Card"),h||e("Colophon"),l||e("Ornament"),s.jsxs(s.Fragment,{children:[s.jsx(n.h1,{children:"Интеллект"}),`
 `,s.jsx("p",{className:"subtitle",children:"Знание — это сила, и это редкость"}),`
 `,s.jsx("p",{className:"lead",children:"В Триречье большинство людей безграмотны, книги — диковина, магия туманна. Хороший книжник в партии — не роскошь, а необходимость."}),`
 `,s.jsx(n.h2,{children:"Грамотность"}),`
@@ -46,7 +46,7 @@ import{u as c,j as s}from"./index-DQu251WW.js";function i(r){const n={h1:"h1",h2
 `,s.jsx(n.h2,{children:"Магия"}),`
 `,s.jsxs(n.p,{children:["Магия — самый ",s.jsx(n.strong,{children:"редкий и тонкий"})," навык в Триречье. Магов мало, магических предметов ещё меньше."]}),`
 `,s.jsx(n.h3,{children:"Кто колдует в Триречье"}),`
-`,s.jsxs(d,{children:[s.jsxs(n.p,{children:[s.jsx(n.strong,{children:"Волхвы"})," — служители богов, ведут обряды, гадают, заговаривают, лечат. Их магия от ",s.jsx(n.strong,{children:"богов"}),"."]}),s.jsxs(n.p,{children:[s.jsx(n.strong,{children:"Ведуны и ведьмы"})," — служители духов земли, лесов, вод. Их магия от ",s.jsx(n.strong,{children:"духов и природы"}),"."]}),s.jsxs(n.p,{children:[s.jsx(n.strong,{children:"Те, кто заключил договор"})," — сильная Нечисть может даровать герою часть своих сил."]}),`
+`,s.jsxs(d,{children:[s.jsxs(n.p,{children:[s.jsx(n.strong,{children:"Волхвы"})," — служители богов, ведут обряды, гадают, заговаривают, лечат. Их магия от ",s.jsx(n.strong,{children:"богов"}),"."]}),s.jsxs(n.p,{children:[s.jsx(n.strong,{children:"Ведуны и ведьмы"})," — служители духов земли, лесов, вод. Их магия от ",s.jsx(n.strong,{children:"духов и природы"}),"."]}),s.jsx(n.p,{children:"А также те, кто заключил договор с Нечистью. Их магия - дар волшебных существ.."})]}),`
 `,s.jsx(n.h3,{children:"Кто может делать проверку Магии"}),`
 `,s.jsxs(n.ul,{children:[`
 `,s.jsxs(n.li,{children:[s.jsx(n.strong,{children:"Без владения навыком:"})," доступны проверки ",s.jsx(n.strong,{children:"до DC 13"})," — распознать факт магии, отличить чудо от обмана, различить базовые школы"]}),`
