@@ -394,6 +394,21 @@ tr:hover td {
   border-left: 3px solid var(--rust);
   padding: 20px 26px 16px;
   margin: 28px 0;
+  position: relative;
+}
+
+.power[data-label]::before {
+  content: attr(data-label);
+  position: absolute;
+  top: -9px;
+  left: 22px;
+  background: var(--bg);
+  padding: 0 12px;
+  font-family: 'Forum', serif;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--rust);
 }
 
 .power-header {
