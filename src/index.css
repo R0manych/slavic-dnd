@@ -386,6 +386,75 @@ tr:hover td {
 }
 
 /* ============================================
+   POWER (ability with rest)
+   ============================================ */
+
+.power {
+  background: rgba(107, 31, 31, 0.05);
+  border-left: 3px solid var(--rust);
+  padding: 20px 26px 16px;
+  margin: 28px 0;
+}
+
+.power-header {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.power-name {
+  font-family: 'Forum', serif;
+  font-size: 22px;
+  color: var(--ink);
+}
+
+.power-rest {
+  font-family: 'Forum', serif;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--rust);
+}
+
+.power p:last-child { margin-bottom: 0; }
+
+/* ============================================
+   CAPSTONE (class pinnacle ability)
+   ============================================ */
+
+.capstone {
+  border: 2px solid var(--rust);
+  padding: 24px 28px 20px;
+  margin: 32px 0;
+  position: relative;
+}
+
+.capstone-label {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  background: var(--bg);
+  padding: 0 10px;
+  font-family: 'Forum', serif;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin: 0;
+}
+
+.capstone-name {
+  font-family: 'Forum', serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--rust);
+  margin: 4px 0 14px;
+}
+
+.capstone p:last-child { margin-bottom: 0; }
+
+/* ============================================
    STATS BLOCK
    ============================================ */
 
@@ -569,7 +638,7 @@ tr:hover td {
     padding: 0;
     max-width: 100%;
   }
-  .feature, .card, .note {
+  .feature, .card, .note, .power {
     background: #f7f0db !important;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;

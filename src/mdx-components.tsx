@@ -6,6 +6,8 @@ import Feature from './components/Feature'
 import { Stats, StatRow } from './components/Stats'
 import { Grid, GridCard } from './components/Grid'
 import Colophon from './components/Colophon'
+import Power from './components/Power'
+import Capstone from './components/Capstone'
 
 export const mdxComponents: MDXComponents = {
   Cover,
@@ -14,6 +16,8 @@ export const mdxComponents: MDXComponents = {
   Card,
   Note,
   Feature,
+  Power,
+  Capstone,
   Stats,
   StatRow,
   Grid,
