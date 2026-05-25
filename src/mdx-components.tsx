@@ -1,4 +1,5 @@
 import { type MDXComponents } from 'mdx/types'
+import { Link } from 'react-router-dom'
 import Cover, { PageHeader } from './components/Cover'
 import Ornament from './components/Ornament'
 import { Card, Note } from './components/Card'
@@ -8,6 +9,7 @@ import { Grid, GridCard } from './components/Grid'
 import Colophon from './components/Colophon'
 import Power from './components/Power'
 import Capstone from './components/Capstone'
+import SpellLink, { SpellList } from './components/SpellLink'
 
 export const mdxComponents: MDXComponents = {
   Cover,
@@ -23,4 +25,7 @@ export const mdxComponents: MDXComponents = {
   Grid,
   GridCard,
   Colophon,
+  Link,
+  SpellLink,
+  SpellList,
 }

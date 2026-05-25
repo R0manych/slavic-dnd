@@ -1,4 +1,4 @@
-import{u as l,j as d}from"./index-CHIWawKk.js";function i(n){const s={h1:"h1",h2:"h2",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",...l(),...n.components},{Card:e,Colophon:h,Ornament:t}=s;return e||r("Card"),h||r("Colophon"),t||r("Ornament"),d.jsxs(d.Fragment,{children:[d.jsx(s.h1,{children:"Доспехи Триречья"}),`
+import{u as l,j as d}from"./index-DmbDY2u6.js";function i(n){const s={h1:"h1",h2:"h2",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",...l(),...n.components},{Card:e,Colophon:h,Ornament:t}=s;return e||r("Card"),h||r("Colophon"),t||r("Ornament"),d.jsxs(d.Fragment,{children:[d.jsx(s.h1,{children:"Доспехи Триречья"}),`
 `,d.jsx("p",{className:"subtitle",children:"От стёганки до латыни"}),`
 `,d.jsx("p",{className:"lead",children:"Доспехи Триречья различаются по материалу, крою и народу-мастеру."}),`
 `,d.jsx(s.h2,{children:"Лёгкие доспехи"}),`

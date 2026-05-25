@@ -1,4 +1,4 @@
-import{u as t,j as n}from"./index-CHIWawKk.js";function c(r){const s={h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...t(),...r.components},{Card:i,Colophon:l,Note:h,Ornament:e}=s;return i||d("Card"),l||d("Colophon"),h||d("Note"),e||d("Ornament"),n.jsxs(n.Fragment,{children:[n.jsx(s.h1,{children:"Отдых"}),`
+import{u as t,j as n}from"./index-DmbDY2u6.js";function c(r){const s={h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...t(),...r.components},{Card:i,Colophon:l,Note:h,Ornament:e}=s;return i||d("Card"),l||d("Colophon"),h||d("Note"),e||d("Ornament"),n.jsxs(n.Fragment,{children:[n.jsx(s.h1,{children:"Отдых"}),`
 `,n.jsx("p",{className:"subtitle",children:"Короткий и продолжительный"}),`
 `,n.jsx("p",{className:"lead",children:"Герои не железные. Даже самый закалённый дружинник не может идти вечно — тело требует сна, а разум требует тишины. Вопрос не в том, отдыхать ли, а в том, где."}),`
 `,n.jsx(s.h2,{children:"Привал и сон"}),`

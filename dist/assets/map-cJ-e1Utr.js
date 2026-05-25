@@ -1,4 +1,4 @@
-import{u as h,j as n}from"./index-CHIWawKk.js";function o(e){const s={h1:"h1",h2:"h2",h3:"h3",p:"p",strong:"strong",...h(),...e.components},{Colophon:r}=s;return r||t("Colophon"),n.jsxs(n.Fragment,{children:[n.jsx(s.h1,{children:"Карта Триречья"}),`
+import{u as h,j as n}from"./index-DmbDY2u6.js";function o(e){const s={h1:"h1",h2:"h2",h3:"h3",p:"p",strong:"strong",...h(),...e.components},{Colophon:r}=s;return r||t("Colophon"),n.jsxs(n.Fragment,{children:[n.jsx(s.h1,{children:"Карта Триречья"}),`
 `,n.jsx("p",{className:"subtitle",children:"Земля под Сварожьим Кругом"}),`
 `,n.jsx("p",{className:"lead",children:"Священная гора Триглав-Камень в центре, три реки расходятся к четырём пределам, девять народов держат рубежи."}),`
 `,n.jsx(s.h2,{children:"Что показано на карте"}),`

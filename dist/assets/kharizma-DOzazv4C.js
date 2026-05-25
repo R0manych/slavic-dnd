@@ -1,4 +1,4 @@
-import{u as x,j as s}from"./index-CHIWawKk.js";function c(r){const n={h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...x(),...r.components},{Card:e,Colophon:h,Note:l,Ornament:i}=n;return e||d("Card"),h||d("Colophon"),l||d("Note"),i||d("Ornament"),s.jsxs(s.Fragment,{children:[s.jsx(n.h1,{children:"Харизма(В РАБОТЕ)"}),`
+import{u as x,j as s}from"./index-DmbDY2u6.js";function c(r){const n={h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...x(),...r.components},{Card:e,Colophon:h,Note:l,Ornament:i}=n;return e||d("Card"),h||d("Colophon"),l||d("Note"),i||d("Ornament"),s.jsxs(s.Fragment,{children:[s.jsx(n.h1,{children:"Харизма(В РАБОТЕ)"}),`
 `,s.jsx("p",{className:"subtitle",children:"Кому здесь рады"}),`
 `,s.jsx("p",{className:"lead",children:"В Триречье Харизма — это не личное обаяние в вакууме, а место в социальной сети."}),`
 `,s.jsx(n.p,{children:"Чужеземец, у которого нет имени и поручителей, не убеждает никого, как бы красиво ни говорил. Зато княжья грамота открывает любые двери."}),`

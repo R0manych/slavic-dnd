@@ -1,6 +1,10 @@
 import { NavLink } from 'react-router-dom'
 
-const nav = [
+type SubLink = { to: string; label: string }
+type NavLink = { to: string; label: string; sub?: SubLink[] }
+type NavSection = { title: string; links: NavLink[] }
+
+const nav: NavSection[] = [
   {
     title: 'Начало',
     links: [
@@ -22,9 +26,15 @@ const nav = [
       { to: '/character/classes', label: 'Классы' },
       { to: '/character/berserk', label: '— Берсерк' },
       { to: '/character/bogatyr', label: '— Богатырь' },
-      { to: '/character/vedun', label: '— Ведун' },
-      { to: '/character/volkhv', label: '— Волхв' },
-      { to: '/character/knizhnik', label: '— Книжник' },
+      { to: '/character/vedun', label: '— Ведун', sub: [
+        { to: '/character/spells/vedun', label: 'Заклинания' },
+      ]},
+      { to: '/character/volkhv', label: '— Волхв', sub: [
+        { to: '/character/spells/volkhv', label: 'Заклинания' },
+      ]},
+      { to: '/character/knizhnik', label: '— Книжник', sub: [
+        { to: '/character/spells/knizhnik', label: 'Заклинания' },
+      ]},
       { to: '/character/okhotnik', label: '— Охотник' },
       { to: '/character/plut', label: '— Плут' },
       { to: '/character/ratnik', label: '— Ратник' },
@@ -74,6 +84,20 @@ export default function Sidebar() {
                 >
                   {link.label}
                 </NavLink>
+                {link.sub && (
+                  <ul className="sidebar-subnav">
+                    {link.sub.map((sub) => (
+                      <li key={sub.to}>
+                        <NavLink
+                          to={sub.to}
+                          className={({ isActive }) => isActive ? 'active' : undefined}
+                        >
+                          {sub.label}
+                        </NavLink>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </li>
             ))}
           </ul>

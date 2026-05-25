@@ -1,4 +1,4 @@
-import{u as c,j as s}from"./index-CHIWawKk.js";function i(r){const n={h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...c(),...r.components},{Card:d,Colophon:h,Ornament:l}=n;return d||e("Card"),h||e("Colophon"),l||e("Ornament"),s.jsxs(s.Fragment,{children:[s.jsx(n.h1,{children:"Интеллект"}),`
+import{u as c,j as s}from"./index-DmbDY2u6.js";function i(r){const n={h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...c(),...r.components},{Card:d,Colophon:h,Ornament:l}=n;return d||e("Card"),h||e("Colophon"),l||e("Ornament"),s.jsxs(s.Fragment,{children:[s.jsx(n.h1,{children:"Интеллект"}),`
 `,s.jsx("p",{className:"subtitle",children:"Знание — это сила, и это редкость"}),`
 `,s.jsx("p",{className:"lead",children:"В Триречье большинство людей безграмотны, книги — диковина, магия туманна. Хороший книжник в партии — не роскошь, а необходимость."}),`
 `,s.jsx(n.h2,{children:"Грамотность"}),`

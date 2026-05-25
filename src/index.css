@@ -139,6 +139,39 @@ body {
   color: var(--rust);
   border-left-color: var(--rust);
   background: rgba(107, 31, 31, 0.05);
+}
+
+.sidebar-subnav {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2px;
+}
+
+.sidebar-subnav li {
+  margin: 0;
+}
+
+.sidebar-subnav a {
+  display: block;
+  padding: 3px 10px 3px 22px;
+  font-size: 13px;
+  color: var(--ink-muted);
+  border-left: 2px solid transparent;
+  text-decoration: none;
+  border-bottom: none;
+  letter-spacing: 0.01em;
+}
+
+.sidebar-subnav a:hover {
+  color: var(--rust);
+  border-left-color: var(--gold-bright);
+  background: rgba(184, 146, 58, 0.06);
+}
+
+.sidebar-subnav a.active {
+  color: var(--rust);
+  border-left-color: var(--rust);
+  background: rgba(107, 31, 31, 0.05);
   font-weight: 500;
 }
 
@@ -220,6 +253,38 @@ a {
 
 a:hover {
   border-bottom-color: var(--rust);
+}
+
+.spell-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px 24px;
+  margin: 0 0 18px;
+}
+
+.spell-link {
+  display: block;
+  border-bottom: none;
+  font-family: 'Forum', serif;
+  font-size: 18px;
+}
+
+.spell-link::after {
+  content: ' ↗';
+  font-size: 12px;
+  opacity: 0.6;
+  font-family: sans-serif;
+}
+
+.spell-link:hover {
+  border-bottom: none;
+  opacity: 0.75;
+}
+
+@media (max-width: 700px) {
+  .spell-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 ul, ol {

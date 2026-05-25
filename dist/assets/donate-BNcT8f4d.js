@@ -1,4 +1,4 @@
-import{u as r,j as n}from"./index-CHIWawKk.js";function s(t){const e={h1:"h1",p:"p",...r(),...t.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Поддержать проект"}),`
+import{u as r,j as n}from"./index-DmbDY2u6.js";function s(t){const e={h1:"h1",p:"p",...r(),...t.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Поддержать проект"}),`
 `,n.jsx("p",{className:"subtitle",children:"Триречье живёт вашей поддержкой"}),`
 `,n.jsx("p",{className:"lead",children:"Свод Триречья — некоммерческий проект. Если он вам нравится и вы хотите помочь ему развиваться — будем рады."}),`
 `,n.jsx(e.p,{children:"На донаты выходит новый контент, правила, правки баланса, иллюстрации и карты."}),`

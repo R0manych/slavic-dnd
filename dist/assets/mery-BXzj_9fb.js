@@ -1,4 +1,4 @@
-import{u as i,j as d}from"./index-CHIWawKk.js";function l(r){const s={h1:"h1",h2:"h2",h3:"h3",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",...i(),...r.components},{Card:n,Colophon:h,Ornament:t}=s;return n||e("Card"),h||e("Colophon"),t||e("Ornament"),d.jsxs(d.Fragment,{children:[d.jsx(s.h1,{children:"Меры Триречья"}),`
+import{u as i,j as d}from"./index-DmbDY2u6.js";function l(r){const s={h1:"h1",h2:"h2",h3:"h3",p:"p",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",...i(),...r.components},{Card:n,Colophon:h,Ornament:t}=s;return n||e("Card"),h||e("Colophon"),t||e("Ornament"),d.jsxs(d.Fragment,{children:[d.jsx(s.h1,{children:"Меры Триречья"}),`
 `,d.jsx("p",{className:"subtitle",children:"Длина, монета, время"}),`
 `,d.jsx("p",{className:"lead",children:"В Триречье свои меры. Сажень вместо фута, серебряный вместо золотого, верста вместо мили."}),`
 `,d.jsx(s.h2,{children:"Длина"}),`

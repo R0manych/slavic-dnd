@@ -11,6 +11,9 @@ const Narody           = lazy(() => import('./content/character/narody.mdx'))
 const Predystorii      = lazy(() => import('./content/character/predystorii.mdx'))
 const Classes          = lazy(() => import('./content/character/classes.mdx'))
 const Contracts        = lazy(() => import('./content/character/contracts.mdx'))
+const SpellsVedun      = lazy(() => import('./content/character/spells/vedun.mdx'))
+const SpellsVolkhv     = lazy(() => import('./content/character/spells/volkhv.mdx'))
+const SpellsKnizhnik   = lazy(() => import('./content/character/spells/knizhnik.mdx'))
 const Berserk          = lazy(() => import('./content/character/classes/berserk.mdx'))
 const Bogatyr          = lazy(() => import('./content/character/classes/bogatyr.mdx'))
 const Vedun            = lazy(() => import('./content/character/classes/vedun.mdx'))
@@ -48,6 +51,9 @@ export default function App() {
             <Route path="/character/predystorii"   element={<Page Component={Predystorii} />} />
             <Route path="/character/classes"       element={<Page Component={Classes} />} />
             <Route path="/character/contracts"     element={<Page Component={Contracts} />} />
+            <Route path="/character/spells/vedun"     element={<Page Component={SpellsVedun} />} />
+            <Route path="/character/spells/volkhv"    element={<Page Component={SpellsVolkhv} />} />
+            <Route path="/character/spells/knizhnik"  element={<Page Component={SpellsKnizhnik} />} />
             <Route path="/character/berserk"       element={<Page Component={Berserk} />} />
             <Route path="/character/bogatyr"       element={<Page Component={Bogatyr} />} />
             <Route path="/character/vedun"         element={<Page Component={Vedun} />} />
