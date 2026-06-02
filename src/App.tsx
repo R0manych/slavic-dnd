@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { MDXProvider } from '@mdx-js/react'
 import Layout from './components/Layout'
 import { mdxComponents } from './mdx-components'
@@ -40,7 +40,7 @@ function Page({ Component }: { Component: React.ComponentType }) {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <MDXProvider components={mdxComponents}>
         <Layout>
           <Routes>
@@ -72,6 +72,6 @@ export default function App() {
           </Routes>
         </Layout>
       </MDXProvider>
-    </BrowserRouter>
+    </HashRouter>
   )
 }

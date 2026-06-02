@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 import remarkGfm from 'remark-gfm'
 
 export default defineConfig({
+  base: '/trirechye/',
   plugins: [
     mdx({ remarkPlugins: [remarkGfm], providerImportSource: '@mdx-js/react' }),
     react(),
