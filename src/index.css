@@ -644,6 +644,27 @@ tr:hover td {
 }
 
 /* ============================================
+   LEDE (home page description)
+   ============================================ */
+
+.lede {
+  max-width: 750px;
+  margin: 0 auto 56px;
+  text-align: center;
+}
+
+.lede p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin-bottom: 1.1em;
+}
+
+.lede p:last-child {
+  margin-bottom: 0;
+}
+
+/* ============================================
    COLOPHON / FOOTER
    ============================================ */
 
